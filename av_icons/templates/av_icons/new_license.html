@@ -1,0 +1,15 @@
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="{% url 'av_icons:new_license' %}" method='post' class="form" id="formUpload">
+      {% csrf_token %}
+      {{ form }}
+<button type="submit" class="button" role="button">buy license</button>
+</form>
+</body>
+</html>

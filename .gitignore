@@ -1,0 +1,7 @@
+ai_venv/
+__pycache__/
+*.sqlite3
+secrets.json
+sqldiff.exe
+sqlite3_analyzer.exe
+sqlite3.exe
